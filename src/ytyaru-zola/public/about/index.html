@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>当サイトについて | ytyaru-zola</title>
+<meta name="description" content="">
+<meta name="author" content="ytyaru">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- {base_url}/{section} -->
+<link rel="stylesheet" href="css/mobile.css" type="text/css" media="screen and (max-width: 899px)">
+<link rel="stylesheet" href="css/pc.css" type="text/css" media="screen and (min-width: 900px)">
+<!-- {base_url}/{section}/ -->
+<link rel="stylesheet" href="../css/mobile.css" type="text/css" media="screen and (max-width: 899px)">
+<link rel="stylesheet" href="../css/pc.css" type="text/css" media="screen and (min-width: 900px)">
+<link rel="shortcut icon" href="">
+</head>
+<body>
+
+<header style="background-color:#CCCCCC;"><nav><ul style="margin:0;padding:0;">
+<li style="display:inline;"><a href="/" title="home">🏠</a></li>
+
+<li style="display:inline;"><a href="archive">archive</a></li>
+
+<li style="display:inline;"><a href="author">author</a></li>
+
+<li style="display:inline;"><a href="about">about</a></li>
+
+<li style="display:inline;"><a href="blog">blog</a></li>
+
+<li style="display:inline;"><a href="atom.xml" title="feed"><img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Feed-icon.svg" width="2.5%" height="2.5%"></img></a></li>
+</ul><nav></header>
+
+
+<main><article><h1>当サイトについて</h1><p>　当サイトは静的サイトジェネレータ<a href="https://www.getzola.org/">zola</a>について書きなぐったものである。また、自作のテーマも配布する。</p>
+<h1 id="raisensu">ライセンス</h1>
+<h2 id="saito">サイト</h2>
+<p>　当サイトにおける記事の著作権は私、<a href="https://example.com/author/">ytyaru</a>にある。無断で複製しないこと。</p>
+<p>　ただし紹介は自由である。URLは好きにコピペしてよい。</p>
+<p>　引用も引用元として当サイト記事のURLが付随すればOK。たとえばURL「<code>{{ config.base_url }}</code>」に書いてある「<code>静的サイトジェネレータzolaについて書きなぐる。</code>」という文章を引用したければ以下のように書くこと。</p>
+<pre data-lang="html" style="background-color:#2b303b;color:#c0c5ce;" class="language-html "><code class="language-html" data-lang="html"><span>&lt;</span><span style="color:#bf616a;">q </span><span style="color:#d08770;">cite</span><span>=&quot;</span><span style="color:#a3be8c;">{{ config.base_url }}</span><span>&quot;&gt;静的サイトジェネレータzolaについて書きなぐる。自作テンプレートも配布する。&lt;/</span><span style="color:#bf616a;">q</span><span>&gt;
+</span><span>&lt;</span><span style="color:#bf616a;">br</span><span>&gt;
+</span><span>&lt;</span><span style="color:#bf616a;">cite</span><span>&gt;引用元：&lt;</span><span style="color:#bf616a;">a </span><span style="color:#d08770;">href</span><span>=&quot;</span><span style="color:#a3be8c;">{{ config.base_url }}</span><span>&quot;&gt;{{ config.base_url }}&lt;/</span><span style="color:#bf616a;">a</span><span>&gt;&lt;/</span><span style="color:#bf616a;">p</span><span>&gt;
+</span></code></pre>
+<pre data-lang="html" style="background-color:#2b303b;color:#c0c5ce;" class="language-html "><code class="language-html" data-lang="html"><span>&lt;</span><span style="color:#bf616a;">blockquote</span><span>&gt;
+</span><span>&lt;</span><span style="color:#bf616a;">p</span><span>&gt;静的サイトジェネレータ&lt;</span><span style="color:#bf616a;">code</span><span>&gt;zola&lt;/</span><span style="color:#bf616a;">code</span><span>&gt;について書きなぐる。自作テンプレートも配布する。&lt;/</span><span style="color:#bf616a;">p</span><span>&gt;
+</span><span>&lt;</span><span style="color:#bf616a;">p</span><span>&gt;&lt;</span><span style="color:#bf616a;">cite</span><span>&gt;引用元：&lt;</span><span style="color:#bf616a;">a </span><span style="color:#d08770;">href</span><span>=&quot;</span><span style="color:#a3be8c;">{{ config.base_url }}</span><span>&quot;&gt;{{ config.base_url }}&lt;/</span><span style="color:#bf616a;">a</span><span>&gt;&lt;/</span><span style="color:#bf616a;">p</span><span>&gt;&lt;/</span><span style="color:#bf616a;">cite</span><span>&gt;
+</span><span>&lt;/</span><span style="color:#bf616a;">blockquote</span><span>&gt;
+</span><span>&lt;</span><span style="color:#bf616a;">a </span><span style="color:#d08770;">href</span><span>=&quot;</span><span style="color:#a3be8c;">{{ config.base_url }}</span><span>&quot;&gt;ytyaru-zola&lt;/</span><span style="color:#bf616a;">a</span><span>&gt;
+</span></code></pre>
+<h3 id="kodo">コード</h3>
+<p>　断りがないかぎり、当サイトの記事で紹介したコードはすべて<a href="http://creativecommons.org/publicdomain/zero/1.0/deed.ja">CC0</a>ライセンスである。自由にコピペしてよい。たとえば記事で以下のように紹介してあるコードが対象。</p>
+<pre data-lang="html" style="background-color:#2b303b;color:#c0c5ce;" class="language-html "><code class="language-html" data-lang="html"><span>&lt;</span><span style="color:#bf616a;">html</span><span>&gt;
+</span><span>  &lt;</span><span style="color:#bf616a;">body</span><span>&gt;
+</span><span>  &lt;/</span><span style="color:#bf616a;">body</span><span>&gt;
+</span><span>&lt;/</span><span style="color:#bf616a;">html</span><span>&gt;
+</span></code></pre>
+<p><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.ja"><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/CC0_button.svg" height="" title="Criative Commons Zero"></img></a></p>
+<!--[![CC0](https://upload.wikimedia.org/wikipedia/commons/6/69/CC0_button.svg "CC0")](http://creativecommons.org/publicdomain/zero/1.0/deed.ja)-->
+<!--[![CC0](https://upload.wikimedia.org/wikipedia/commons/6/69/CC0_button.svg "CC0")](http://creativecommons.org/publicdomain/zero/1.0/deed.ja)-->
+<!--[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png "CC0")](http://creativecommons.org/publicdomain/zero/1.0/deed.ja)-->
+<h1 id="ji-fu">寄付</h1>
+<!--
+
+　よろしければ寄付をしていただけるととても嬉しいです。メールアドレス欄に``を入力すると私に届きます。
+
+* [Amazon ギフト券 15円〜](https://www.amazon.co.jp/Amazon%E3%82%AE%E3%83%95%E3%83%88%E5%88%B8-1_JP_Email-Amazon%E3%82%AE%E3%83%95%E3%83%88%E5%88%B8-E%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%97-Amazon%E3%83%99%E3%83%BC%E3%82%B7%E3%83%83%E3%82%AF/dp/B004N3APGO/ref=as_li_ss_il?s=gift-cards&ie=UTF8&qid=1547605920&sr=1-1&linkCode=li2&tag=aecaaais-22&linkId=c8d5776fbcac877f23e88d0a7f4c4397&language=ja_JP)
+
+
+name|id|項目
+----|--|----
+amount|gc-order-form-amount|金額(15円〜)
+emails|gc-order-form-recipients|受取人のEメールアドレス
+
+document.getElementById("gc-order-form-amount").value="15";
+document.getElementById("gc-order-form-recipients").value="yttry0-amazon-gift@gmail.com";
+
+javascript:(function(){var T=prompt('更新間隔?(秒)','60');if(T&&!isNaN(T)){var F='<html><iframe src="https://www.amazon.co.jp/Amazon%E3%82%AE%E3%83%95%E3%83%88%E5%88%B8-1_JP_Email-Amazon%E3%82%AE%E3%83%95%E3%83%88%E5%88%B8-E%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%97-Amazon%E3%83%99%E3%83%BC%E3%82%B7%E3%83%83%E3%82%AF/dp/B004N3APGO/ref=as_li_ss_il?s=gift-cards&ie=UTF8&qid=1547605920&sr=1-1&linkCode=li2&tag=aecaaais-22&linkId=c8d5776fbcac877f23e88d0a7f4c4397&language=ja_JP"></iframe></html>';var W=open();with(W.document){write(F);close();}var H='<html><script>function R(){parent.frames[0].location="'+location+'";}setInterval("R()",'+T*1000+');</script></html>';with(W.frames[1].document){write(H);close();}}})();
+
+<iframe srcdoc="<p>フレーム表示される内容です。詳しくは、<a href=&quot;http://example.com/?p=1&amp;amp;r=1&quot;>こちらのページ</a>をご確認ください。</p>" src="http://example.com/"></iframe>
+
+javascript:(function(){var T=prompt('更新間隔?(秒)','60');if(T&&!isNaN(T)){var F='<html><frameset rows="*,0"><frame src="'+location+'"><frame></frameset></html>';var W=open();with(W.document){write(F);close();}var H='<html><script>function R(){parent.frames[0].location="'+location+'";}setInterval("R()",'+T*1000+');</script></html>';with(W.frames[1].document){write(H);close();}}})();
+
+-->
+</article></main>
+<aside><!-- ad --></aside>
+
+<footer style="background-color:#CCCCCC;"><small>© 2021 ytyaru<small></footer>
+
+
+
+
+</body>
+</html>
