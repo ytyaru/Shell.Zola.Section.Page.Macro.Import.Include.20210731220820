@@ -12,8 +12,8 @@
 </head>
 <body>
 {% include "include/header.html" %}
-{#<main><article><h1>{{ config.title }}</h1><p>{{ config.description }}</p></article></main>#}
-<main><article><h1>{{ config.title }}</h1><p>静的サイトジェネレータ<code>zola</code>について書きなぐる。自作テンプレートも配布する。</p></article></main>
+<main><article><h1>{{ config.title }}</h1><p>{{ config.description | safe }}</p></article></main>
+{#<main><article><h1>{{ config.title }}</h1><p>静的サイトジェネレータ<code>zola</code>について書きなぐる。自作テンプレートも配布する。</p></article></main>#}
 <aside><!-- ad --></aside>
 {#<footer>© 2021 {{ config.extra.author }}</footer>#}
 {% include "include/footer.html" %}
